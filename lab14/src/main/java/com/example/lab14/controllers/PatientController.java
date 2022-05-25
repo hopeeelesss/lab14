@@ -1,6 +1,8 @@
 package com.example.lab14.controllers;
 
 import com.example.lab14.entities.Patient;
+import com.example.lab14.repos.PatientRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,7 +14,8 @@ import java.util.Objects;
 @Controller
 @RequestMapping("/patient")
 public class PatientController {
-    private ArrayList<Patient> patients = new ArrayList<>();
+    @Autowired
+    PatientRepo patientRepo;
 
     @GetMapping("/add")
     public String addDoctor(@RequestParam("FirstName") String FirstName ,
@@ -22,7 +25,7 @@ public class PatientController {
         pat.setFirstName(FirstName);
         pat.setLastName(LastName);
         pat.setPosition(position);
-        patients.add(pat);
+        patientRepo.save(pat);
         return "completed";
     }
 
@@ -30,11 +33,11 @@ public class PatientController {
     public String deleteDoctor(@RequestParam("FirstName") String FirstName ,
                                @RequestParam("LastName") String LastName,
                                @RequestParam("position") int position){
-        for(Patient i: patients){
-            if(Objects.equals(i.getFirstName(), FirstName)
-                    && Objects.equals(i.getLastName(), LastName)
-                        && i.getPosition() == position){
-                patients.remove(i);
+        for(Patient patient: patientRepo.findAll()){
+            if(Objects.equals(patient.getFirstName(), FirstName)
+                    && Objects.equals(patient.getLastName(), LastName)
+                        && patient.getPosition() == position){
+                patientRepo.delete(patient);
                 break;
             }
         }
@@ -43,8 +46,8 @@ public class PatientController {
 
     @GetMapping("/list")
     public String listDoctors(){
-        for(Patient i: patients){
-            System.out.println(i.toString());
+        for(Patient patient: patientRepo.findAll()){
+            System.out.println(patient.toString());
         }
         return "completed";
     }

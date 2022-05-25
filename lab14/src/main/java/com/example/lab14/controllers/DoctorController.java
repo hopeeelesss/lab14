@@ -1,20 +1,20 @@
 package com.example.lab14.controllers;
 
 import com.example.lab14.entities.Doctor;
-import lombok.Data;
+import com.example.lab14.repos.DoctorRepo;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.print.Doc;
-import java.util.ArrayList;
 import java.util.Objects;
 
 @Controller
 @RequestMapping("/doctor")
 public class DoctorController {
-    private ArrayList<Doctor> doctors = new ArrayList<>();
+    @Autowired
+    DoctorRepo doctorRepo;
 
     @GetMapping("/add")
     public String addDoctor(@RequestParam("FirstName") String FirstName ,
@@ -22,17 +22,17 @@ public class DoctorController {
         Doctor doc = new Doctor();
         doc.setFirstName(FirstName);
         doc.setLastName(LastName);
-        doctors.add(doc);
+        doctorRepo.save(doc);
         return "completed";
     }
 
     @GetMapping("/delete")
     public String deleteDoctor(@RequestParam("FirstName") String FirstName ,
                             @RequestParam("LastName") String LastName){
-        for(Doctor i: doctors){
-            if(Objects.equals(i.getFirstName(), FirstName)
-            && Objects.equals(i.getLastName(), LastName)){
-                doctors.remove(i);
+        for(Doctor doctor: doctorRepo.findAll()){
+            if(Objects.equals(doctor.getFirstName(), FirstName)
+            && Objects.equals(doctor.getLastName(), LastName)){
+                doctorRepo.delete(doctor);
                 break;
             }
         }
@@ -41,7 +41,7 @@ public class DoctorController {
 
     @GetMapping("/list")
     public String listDoctors(){
-        for(Doctor i: doctors){
+        for(Doctor i: doctorRepo.findAll()){
             System.out.println(i.toString());
         }
         return "completed";
