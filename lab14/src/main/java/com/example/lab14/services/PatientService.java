@@ -15,9 +15,12 @@ public class PatientService {
     @Autowired
     private PatientRepo patientRepo;
 
+    @Autowired
+    private EmailService emailService;
 
     public void add(Patient patient){
         log.info("Added {}", patient);
+        emailService.sendMessage("Patient", patient.toString());
         patientRepo.save(patient);
     }
 

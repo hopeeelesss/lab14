@@ -16,10 +16,14 @@ public class DoctorService {
     @Autowired
     private DoctorRepo doctorRepo;
 
+    @Autowired
+    private EmailService emailService;
+
 
     public void add(Doctor doctor){
         log.info("Added {}", doctor);
         doctorRepo.save(doctor);
+        emailService.sendMessage("Doctor", doctor.toString());
     }
 
     public void delete(Doctor doctor){
