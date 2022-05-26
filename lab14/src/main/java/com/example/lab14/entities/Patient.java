@@ -12,16 +12,16 @@ public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
-    private String FirstName;
-    private String LastName;
+    private String firstName;
+    private String lastName;
     private int position;
     @ManyToOne
     @JsonIgnore
     private Doctor doctor;
     public Patient(){}
     public Patient(String firstName, String lastName, int position) {
-        FirstName = firstName;
-        LastName = lastName;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.position = position;
     }
 }

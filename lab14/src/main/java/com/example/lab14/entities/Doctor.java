@@ -12,16 +12,16 @@ public class Doctor {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
-    private String FirstName;
-    private String LastName;
+    private String firstName;
+    private String lastName;
     @OneToMany
     private List<Patient> patientList;
 
     public Doctor(){}
 
     public Doctor(String firstName, String lastName, List patientList) {
-        FirstName = firstName;
-        LastName = lastName;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.patientList = patientList;
     }
 }
