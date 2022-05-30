@@ -1,0 +1,917 @@
+882  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 9708 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+885  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1580 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1581 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1609 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1611 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1612 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+1621 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1622 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1653 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2216 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2228 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2228 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2229 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2338 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2338 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1407 ms
+2498 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2786 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+2836 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2882 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3062 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3172 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+3851 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3858 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4292 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4678 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+4695 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+4704 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.253 seconds (JVM running for 4.924)
+300113 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+300114 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+300118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+699  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 8536 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+701  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1335 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1336 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1364 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1366 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1366 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+1376 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2037 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2038 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2040 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2170 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2170 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1418 ms
+2318 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2505 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+2589 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2654 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+2861 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2991 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+3724 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3731 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4117 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4597 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+4615 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+4625 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.293 seconds (JVM running for 4.865)
+29022 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+29022 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+29023 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 1 ms
+40888 [http-nio-8080-exec-3] INFO  c.e.lab14.services.DoctorService –
+                Listed Doctors
+60416 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+60418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+60421 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+782  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 15260 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+785  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1411 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1412 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1439 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1441 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1442 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+1452 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1453 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1482 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2129 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2129 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2130 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2236 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2236 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1396 ms
+2422 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2638 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+2703 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+2754 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+2929 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3088 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+3801 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3809 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4256 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4632 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+4655 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+4666 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.289 seconds (JVM running for 4.892)
+36936 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+36937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+36937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 0 ms
+36962 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver –
+                Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'FirstName' for method parameter type String is not present]
+58179 [http-nio-8080-exec-2] INFO  c.e.lab14.services.DoctorService –
+                Deleted Doctor(id=null, firstName=dima, lastName=zalupa, patientList=null)
+98683 [http-nio-8080-exec-3] INFO  c.e.lab14.services.DoctorService –
+                Added Doctor(id=null, firstName=aaaa, lastName=suka, patientList=null)
+2078285 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+2078287 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+2078289 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+707  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 13764 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+710  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1505 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1506 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1533 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1535 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1536 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+1575 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1579 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1607 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2346 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2356 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2357 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2357 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2473 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2474 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1716 ms
+2643 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2935 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+2984 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+3029 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3218 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3328 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4000 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4007 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4533 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5028 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+5050 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+5061 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.731 seconds (JVM running for 5.412)
+15040 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+15041 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+15042 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 1 ms
+15079 [http-nio-8080-exec-1] INFO  c.e.lab14.services.DoctorService –
+                Listed Doctors
+15191 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 120ms
+1569796 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+1569798 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+1569801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+727  [background-preinit] INFO  o.h.validator.internal.util.Version –
+                HV000001: Hibernate Validator 6.2.3.Final
+769  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 8032 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+770  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1903 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1904 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1929 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1930 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1931 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+1939 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1940 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2674 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2684 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2684 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2685 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2831 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2831 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 2015 ms
+3088 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+3337 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+3445 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+3488 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3692 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3826 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4535 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4542 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4880 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext –
+                Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'doctorController' defined in file [E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes\com\example\lab14\controllers\DoctorController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'doctorService': Unsatisfied dependency expressed through field 'emailService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailService': Unsatisfied dependency expressed through field 'emailSender'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+4881 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+4882 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+4887 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+4892 [main] INFO  o.a.catalina.core.StandardService –
+                Stopping service [Tomcat]
+4907 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener –
+                
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+4925 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter –
+                
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field emailSender in com.example.lab14.services.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
+763  [background-preinit] INFO  o.h.validator.internal.util.Version –
+                HV000001: Hibernate Validator 6.2.3.Final
+778  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 11532 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+778  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1624 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1625 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1651 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1653 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1653 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+1661 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1662 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1705 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2362 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2372 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2373 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2373 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2486 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2486 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1656 ms
+2727 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2933 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+2983 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+3040 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3222 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3345 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4163 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4170 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4616 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5082 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver –
+                Exposing 1 endpoint(s) beneath base path '/actuator'
+5103 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+5121 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+5137 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.78 seconds (JVM running for 5.374)
+36829 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+36829 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+36830 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 1 ms
+36886 [http-nio-8080-exec-1] INFO  c.e.lab14.services.DoctorService –
+                Added Doctor(id=null, firstName=pashok, lastName=zapashokk, patientList=null)
+42033 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5112ms
+42033 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5114ms
+42042 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –
+                Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020ac24911000000b0047255d211eesm551397lfi.285 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020ac24911000000b0047255d211eesm551397lfi.285 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.lab14.services.EmailService.sendMessage(EmailService.java:23)
+	at com.example.lab14.services.EmailService$$FastClassBySpringCGLIB$$e50ac7ba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.EmailService$$EnhancerBySpringCGLIB$$cae8f50d.sendMessage(<generated>)
+	at com.example.lab14.services.DoctorService.add(DoctorService.java:26)
+	at com.example.lab14.services.DoctorService$$FastClassBySpringCGLIB$$89fe875.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.DoctorService$$EnhancerBySpringCGLIB$$2efc5906.add(<generated>)
+	at com.example.lab14.controllers.DoctorController.addDoctor(DoctorController.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+227404 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+227407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+227410 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+685  [background-preinit] INFO  o.h.validator.internal.util.Version –
+                HV000001: Hibernate Validator 6.2.3.Final
+729  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 15524 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+730  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+1697 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1698 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1724 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1726 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1726 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+1735 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1736 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1766 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2458 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2468 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2469 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2469 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2591 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2592 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1786 ms
+2867 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+3084 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+3134 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+3186 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3345 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3473 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4186 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4193 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4685 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5188 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver –
+                Exposing 1 endpoint(s) beneath base path '/actuator'
+5213 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+5233 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+5248 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.925 seconds (JVM running for 5.498)
+17238 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+17238 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+17240 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 1 ms
+17287 [http-nio-8080-exec-1] INFO  c.e.lab14.services.DoctorService –
+                Added Doctor(id=null, firstName=pashok, lastName=zapashokk, patientList=null)
+22360 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5038ms
+22361 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5040ms
+22369 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –
+                Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i31-20020a0565123e1f00b0047255d210dbsm566885lfv.10 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i31-20020a0565123e1f00b0047255d210dbsm566885lfv.10 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.lab14.services.EmailService.sendMessage(EmailService.java:23)
+	at com.example.lab14.services.EmailService$$FastClassBySpringCGLIB$$e50ac7ba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.EmailService$$EnhancerBySpringCGLIB$$66b846fa.sendMessage(<generated>)
+	at com.example.lab14.services.DoctorService.add(DoctorService.java:26)
+	at com.example.lab14.services.DoctorService$$FastClassBySpringCGLIB$$89fe875.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.DoctorService$$EnhancerBySpringCGLIB$$aed708be.add(<generated>)
+	at com.example.lab14.controllers.DoctorController.addDoctor(DoctorController.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+95858 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+95861 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+95865 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
+806  [main] INFO  com.example.lab14.Lab14Application –
+                Starting Lab14Application using Java 18.0.1.1 on DESKTOP-05TJLE2 with PID 12008 (E:\WorkOrStudy\JavaUniversity\lab14\lab14\target\classes started by khokh in E:\WorkOrStudy\JavaUniversity\lab14)
+809  [main] INFO  com.example.lab14.Lab14Application –
+                No active profile set, falling back to 1 default profile: "default"
+811  [background-preinit] INFO  o.h.validator.internal.util.Version –
+                HV000001: Hibernate Validator 6.2.3.Final
+1690 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1692 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1719 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.DoctorRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1721 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport –
+                Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.lab14.repos.PatientRepo. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+1722 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 26 ms. Found 0 JDBC repository interfaces.
+1732 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Multiple Spring Data modules found, entering strict repository configuration mode!
+1733 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1764 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate –
+                Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2409 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat initialized with port(s): 8080 (http)
+2419 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Initializing ProtocolHandler ["http-nio-8080"]
+2420 [main] INFO  o.a.catalina.core.StandardService –
+                Starting service [Tomcat]
+2420 [main] INFO  o.a.catalina.core.StandardEngine –
+                Starting Servlet engine: [Apache Tomcat/9.0.62]
+2568 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring embedded WebApplicationContext
+2568 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext –
+                Root WebApplicationContext: initialization completed in 1706 ms
+2815 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Starting...
+2999 [main] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Start completed.
+3050 [main] INFO  o.h.jpa.internal.util.LogHelper –
+                HHH000204: Processing PersistenceUnitInfo [name: default]
+3103 [main] INFO  org.hibernate.Version –
+                HHH000412: Hibernate ORM core version 5.6.8.Final
+3264 [main] INFO  o.h.annotations.common.Version –
+                HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3389 [main] INFO  org.hibernate.dialect.Dialect –
+                HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+4131 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator –
+                HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4139 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Initialized JPA EntityManagerFactory for persistence unit 'default'
+4603 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration –
+                spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5113 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver –
+                Exposing 1 endpoint(s) beneath base path '/actuator'
+5135 [main] INFO  o.a.coyote.http11.Http11NioProtocol –
+                Starting ProtocolHandler ["http-nio-8080"]
+5154 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer –
+                Tomcat started on port(s): 8080 (http) with context path ''
+5179 [main] INFO  com.example.lab14.Lab14Application –
+                Started Lab14Application in 4.795 seconds (JVM running for 5.44)
+22794 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] –
+                Initializing Spring DispatcherServlet 'dispatcherServlet'
+22795 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Initializing Servlet 'dispatcherServlet'
+22796 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet –
+                Completed initialization in 1 ms
+22847 [http-nio-8080-exec-1] INFO  c.e.lab14.services.DoctorService –
+                Deleted Doctor(id=null, firstName=pashok, lastName=zapashokk, patientList=null)
+22865 [http-nio-8080-exec-1] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 28ms
+40417 [http-nio-8080-exec-2] INFO  c.e.lab14.services.DoctorService –
+                Added Doctor(id=null, firstName=pashok, lastName=zapashokk, patientList=null)
+45478 [http-nio-8080-exec-2] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5041ms
+45478 [http-nio-8080-exec-2] INFO  com.example.lab14.entities.Aspect –
+                Execution time: 5041ms
+45485 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] –
+                Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k12-20020a2ea26c000000b0024f3d1daef5sm678535ljm.125 - gsmtp
+] with root cause
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k12-20020a2ea26c000000b0024f3d1daef5sm678535ljm.125 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:947)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:858)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:762)
+	at javax.mail.Service.connect(Service.java:342)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:518)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:437)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:323)
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:312)
+	at com.example.lab14.services.EmailService.sendMessage(EmailService.java:23)
+	at com.example.lab14.services.EmailService$$FastClassBySpringCGLIB$$e50ac7ba.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.EmailService$$EnhancerBySpringCGLIB$$a029530c.sendMessage(<generated>)
+	at com.example.lab14.services.DoctorService.add(DoctorService.java:26)
+	at com.example.lab14.services.DoctorService$$FastClassBySpringCGLIB$$89fe875.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.example.lab14.services.DoctorService$$EnhancerBySpringCGLIB$$105fe33e.add(<generated>)
+	at com.example.lab14.controllers.DoctorController.addDoctor(DoctorController.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+849166 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean –
+                Closing JPA EntityManagerFactory for persistence unit 'default'
+849169 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown initiated...
+849172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource –
+                HikariPool-1 - Shutdown completed.
